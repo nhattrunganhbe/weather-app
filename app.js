@@ -1,4 +1,4 @@
-const API_KEY = "a2305bedaded6a37527258d0530e746d";
+import { API_KEY } from "./config.js";
 const searchBtn = document.getElementById("searchBtn");
 const cityInput = document.getElementById("cityInput");
 const weatherResult = document.getElementById("weatherResult");
