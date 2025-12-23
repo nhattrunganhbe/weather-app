@@ -1,0 +1,41 @@
+User gõ
+↓
+SearchBox (event)
+↓
+App.setCityInput()
+
+User bấm Search
+↓
+SearchBox gọi onSearch()
+↓
+App.setCityToSearch()
+
+cityToSearch đổi
+↓
+useEffect chạy
+↓
+setLoading(true)
+↓
+fetch API
+↓
+setWeatherData()
+↓
+setLoading(false)
+
+State đổi
+↓
+React render lại UI
+
+
+
+App
+├── SearchBox
+│   ├── input
+│   └── button
+│
+├── WeatherCard
+│   └── current weather
+│
+└── ForecastList
+    └── forecast cards
+

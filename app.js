@@ -1,10 +1,10 @@
 import { API_KEY } from "./config.js";
+
 const searchBtn = document.getElementById("searchBtn");
 const cityInput = document.getElementById("cityInput");
 const weatherResult = document.getElementById("weatherResult");
 
 searchBtn.addEventListener("click", getWeather);
-
 async function getWeather() {
   const city = cityInput.value.trim();
   // async là để dùng await (đễ bắt hàm đợi)
